@@ -67,13 +67,17 @@ PC用のスタイル
     min-width: 375px;
     margin: 0;
   }
+  /* PC用ナビゲーション非表示 */
   #nav-pc {
     display: none;
   }
+  /* ハンバーガーメニュー */
   #menu-sp {
     float: right;
     padding: 0;
   }
+  /* スマホ用ナビゲーションの表示切替 */
+  /* 初期状態、レイアウトと非表示設定 */
   #nav-sp {
     background-color: #ce933e;
     position: absolute;
@@ -84,14 +88,17 @@ PC用のスタイル
     display: none;
     z-index: 100;
   }
+  /* ×ボタン */
   #close {
     position: absolute;
     top: 20px;
     right: 20px;
   }
+  /* ナビゲーションメニュー用ロゴ */
   #logo-sp {
     margin: 80px 0 30px 20px;
   }
+   /* ナビゲーションのリンクの装飾設定 */
   #nav-sp > a {
     display: block;
   }
